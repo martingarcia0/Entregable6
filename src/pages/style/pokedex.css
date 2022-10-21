@@ -1,0 +1,115 @@
+.pokedex-container{
+    margin: auto;
+    margin-bottom: 10px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    background-color: aliceblue;
+    /* width: 100vw; */
+    min-height: 100vh;
+}
+
+header{
+    text-align: center;
+    height: 100px;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+header img {
+    width: 350px;
+}
+
+h1{
+    letter-spacing: 0.2em;
+}
+header p span{
+    font-weight: bolder;
+}
+.aside, aside {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 10px;
+}
+aside form {
+    background-color: rgba(234, 56, 56, 0.9);
+    width: 100%;
+    height: 3em;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    padding: 10px;
+}
+aside form input[type=text]{
+    width: 70%;
+    height: 30px;
+}
+aside form button{
+    width: 30%;
+    height: 30px;
+    padding: 1px;
+    margin: 2px auto;
+    cursor: pointer;
+    vertical-align: middle;
+}
+aside form button:hover{
+    color: white;
+    background-color: rgba(234, 56, 56, 0.9);
+    transition: 0.5s ease;
+}
+aside form button:active{
+    height: 35px;
+    width: 20%;
+    border: 0.5em solid rgba(255, 0, 0, 0.6);
+}
+aside select {
+    outline: none;
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgba(255, 0, 0, 0.6);;
+}
+aside select:hover {
+    border: 4px solid rgba(255, 0, 0, 0.6);;
+}
+aside select:focus {
+    border: 4px solid rgba(255, 0, 0, 0.6);;
+}
+aside select::-webkit-scrollbar {
+    width: 10px;
+}
+aside select::-webkit-scrollbar-track {
+    background-color: rgba(10,10,10,.9);
+    padding: 5px;
+}
+aside select::-webkit-scrollbar-thumb {
+    background-color: rgb(200, 10, 10);
+    border-radius: 50px;
+    padding: 5px;
+}
+aside select option {
+    color: rgba(200, 10, 10, 0.8);
+    font-size: 1.3em;
+}
+aside select option[selected]:hover{
+    background-color: lightblue;
+    color: green;
+    transform: scale(40px);
+}
+main{
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    /* min-width: 100vw; */
+    width: 100%;
+    background-color: whitesmoke;
+    margin: 30px auto;
+}
